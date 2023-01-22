@@ -1,0 +1,193 @@
+ * {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+.main {
+    background-color: rgb(31, 25, 25);
+    height: 200vh;
+
+
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    
+}
+
+.left {
+    display: flex;
+
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+
+
+}
+.menuItem {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-right: 19px;
+}
+
+
+/* right navbar */
+
+.right {
+    display: flex;
+}
+
+.menuIcons {
+    display: flex;
+    padding: 12px
+}
+
+@media screen and (max-width: 1440px) {
+    .menuIcons {
+        display: none;
+    }
+  }
+
+.menuButtons {
+    display: flex;
+}
+
+.iconItem {
+    padding: 10px
+}
+
+.glyphicon{
+    font-size: 20px;
+}
+
+.btn-div {
+    margin: 15px;
+
+}
+
+.btn1 {
+    padding: 12px 15px;
+    background-color: rgb(213, 233, 198);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1290px) {
+    .btn1 {
+        display: none;
+    }
+  }
+
+.btn2 {
+    padding: 12px 20px;
+    background-color: rgb(31, 25, 25);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+
+}
+.btn3 {
+    padding: 12px 25px;
+    background-color: rgb(242, 161, 161);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+
+}
+.btn4 {
+    padding: 12px 25px;
+    background-color: rgb(249, 255, 131);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    font-weight: bold;
+
+}
+.btn5 {
+    padding: 12px 45px;
+    background-color: rgb(15, 162, 25);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+
+}
+
+/* body ----------------------------- section 1 */
+
+.wrapper2 {
+    background-color: rgb(31, 25, 25);
+
+}
+
+.section1 {
+    background-color: rgb(31, 25, 25);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.section-one-form {
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+}
+
+.title-section-one {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.first_input {
+    padding: 7px 70px;
+    border-radius: 20px;
+}
+
+
+.section2 {
+    background-color: rgb(213, 233, 198);
+    display: flex;
+    justify-content: center;
+
+
+}
